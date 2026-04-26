@@ -1,6 +1,6 @@
 import streamlit as st, sys, os, math, datetime, time, pytz, pandas as pd
 import streamlit.components.v1 as components
-sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from utils.bg_scanner import BgScanner
 from utils.stocks     import PRESETS
 from utils.history    import get_today

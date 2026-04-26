@@ -1,5 +1,5 @@
-import streamlit as st, sys, os`nsys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, os.path.dirname(__file__))
+import streamlit as st, sys, os
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 
 st.set_page_config(
     page_title="KARMA PA Scanner",

@@ -4,7 +4,7 @@ Merged History — Signal alerts + Full stock snapshots in one place
 """
 
 import streamlit as st, sys, os, math, datetime, pytz, pandas as pd
-sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import plotly.graph_objects as go
 
 from utils.history       import get_all, get_today, clear_all as clear_signals, stats

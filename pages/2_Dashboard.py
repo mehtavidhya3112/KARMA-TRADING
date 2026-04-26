@@ -1,5 +1,5 @@
 import streamlit as st, sys, os, math, datetime, pytz, pandas as pd
-sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import yfinance as yf
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots

@@ -1,5 +1,5 @@
 import streamlit as st, sys, os, pandas as pd
-sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from utils.bg_scanner import BgScanner
 
 st.set_page_config(page_title="KARMA Settings", page_icon="⚙️", layout="wide")
