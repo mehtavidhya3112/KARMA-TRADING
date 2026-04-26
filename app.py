@@ -1,4 +1,4 @@
-import streamlit as st, sys, os
+import streamlit as st, sys, os`nsys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(__file__))
 
 st.set_page_config(
